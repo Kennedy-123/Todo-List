@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vibur&display=swap');
+
+.todoList_container {
+  background-color: rgb(220, 214, 214);
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.heading {
+  color: white;
+  background-color: purple;
+  padding-bottom: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subHeading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.errSms {
+  color: red;
+}
+
+.addTodoList_container {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  width: 60%;
+  margin: -80px auto 0 auto;
+  padding: 40px, 40px, 20px, 40px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 250px;
+}
+
+input[type='submit'],
+input[type='button'] {
+  width: 120px;
+  padding: 5px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: linear-gradient(tomato, red);
+}
+
+input[type='submit']:hover,
+input[type='button']:hover {
+  box-shadow: 2px 2px 2px 2px black;
+  cursor: pointer;
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.todoList_body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todoList_header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+th {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-align: justify;
+}
+
+.colmnHead {
+  background-color: gray;
+}
+
+.message {
+  margin: 10px auto 0 auto;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 12px;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
